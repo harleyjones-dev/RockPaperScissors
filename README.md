@@ -1,11 +1,6 @@
 # Rock, Paper, or Scissors
 A simple rock, paper, or scissors game made in Python. 
 
-I have added a twist where the probabilities are as follows:
-*Win*: 1/3
-*Draw*: 1/9
-*Lose*: 5/9
-
 ## Contributions?
 I do not accept pull requests on this project as it was made for educational purposes.
 
