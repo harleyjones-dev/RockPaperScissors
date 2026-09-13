@@ -1,14 +1,8 @@
 import random
 
-cases = {
-    "rock": "scissors",
-    "paper": "rock",
-    "scissors": "paper"
-}
+cases = {"rock": "scissors","paper": "rock","scissors": "paper"}
+win, draw, lose = 0, 0, 0
 
-win = 0
-draw = 0
-lose = 0
 while True:
     plr = input("Enter rock, paper, or scissors: ")
     bot = random.choice(list(cases.keys()))
