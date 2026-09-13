@@ -14,7 +14,7 @@ while True:
     bot = random.randint(1,9)
     # I have intentionally skewed the probability of a win by making the computer pick a number between 1-9
 
-    if plr in cases.keys:
+    if plr in cases:
         if bot == 4 or bot == 6 or bot == 8: # These numbers are 3 random numbers I thought of in range to give a probability of a win
             print(f"{plr} beats {cases[plr]}!")
             win += 1
