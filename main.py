@@ -8,7 +8,7 @@ while True:
     bot = random.choice(list(cases.keys()))
 
     if plr in cases:
-        if plr[1] != bot:
+        if plr != bot:
             print(f"{plr.title()} beats {bot}!")
             win += 1
         elif plr == bot:
